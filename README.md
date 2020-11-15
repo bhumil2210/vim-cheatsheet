@@ -4,9 +4,9 @@ https://vim.rtorr.com/
 
 <b>You can always use esc to reset your ongoing command
 Exit always in esc mode</b>
-<b>:q</b> - quit
-<b>:wq</b> - save and quit
-<b>:q!</b> - don't save and quit
+<b>:q</b> - quit<br>
+<b>:wq</b> - save and quit<br>
+<b>:q!</b> - don't save and quit<br>
 
 <b>:w</b> - to save the file as we go
 
