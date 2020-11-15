@@ -21,22 +21,22 @@ Exit always in esc mode</b>
 
 <b>A number adds a multiplier</b> 
 
-<b>}</b>  - move down in blocks
-<b>{</b>  - move up in blocks
+<b>}</b>  - move down in blocks<br>
+<b>{</b>  - move up in blocks<br>
 
-<b>w</b>  - move across words in right dir
-<b>b</b>  - move across words in left dir
-<b>W (Cap) / B (Cap)</b> - moves fast than w/b, ignores punctuations
-<b>0</b>  - move to the beginning of the line
-<b> ^ / 0w </b>  - move to the beginning of first word
+<b>w</b>  - move across words in right dir<br>
+<b>b</b>  - move across words in left dir<br>
+<b>W (Cap) / B (Cap)</b> - moves fast than w/b, ignores punctuations<br>
+<b>0</b>  - move to the beginning of the line<br>
+<b> ^ / 0w </b>  - move to the beginning of first word<br>
 
-<b>a</b>  - 1 step right + insert mode
+<b>a</b>  - 1 step right + insert mode<br>
 
-<b>A</b>  - to the end of the line + insert mode
-<b>I</b>  - to the beg of line + insert mode
+<b>A</b>  - to the end of the line + insert mode<br>
+<b>I</b>  - to the beg of line + insert mode<br>
 
-<b>f(char)</b>  - find that character in line and cursor is on that char
-<b>t(char)</b>  - find + cursor is 1 left to that char
+<b>f(char)</b>  - find that character in line and cursor is on that char<br>
+<b>t(char)</b>  - find + cursor is 1 left to that char<br>
 
 <b>%</b>  called motion- can be used to move between opening and closing blocks , like from { to } directly
 
@@ -50,25 +50,25 @@ Exit always in esc mode</b>
 
 <b>ct(char)</b>  - we can change from cursor to particular char
 
-<b>D (Cap)</b>  - deletes whole line to the right of cursor.
+<b>D (Cap)</b>  - deletes whole line to the right of cursor.<br>
 <b>C (Cap)</b>  - D(Cap) + insert mode
 
 <b>*</b>  - used as ctrl f - to search instances of a word in a file.
 
-<b>/ (word)</b>  - ctrl f - to search in a file
-<b>n</b>  - to move to next instance in down dir
+<b>/ (word)</b>  - ctrl f - to search in a file<br>
+<b>n</b>  - to move to next instance in down dir<br>
 <b>N</b>  - to move to next instance in up dir
 
 <b>* and /</b>   - both works
 
 <b>t(char); / ;</b>  - to find a instance across a line , 
 
-<b>x</b>  - deletes a char
+<b>x</b>  - deletes a char<br>
 <b>10x</b>  - 10 letters to the right
 
 <b>r(char)</b>  - replace the char
 
-<b>~</b>  - changes the case of a letter
+<b>~</b>  - changes the case of a letter<br>
 <b>10~</b>  - will change case of 10 char to the right
 
 <b>.</b>  (period operator) - does the last command performed, can be used to repeat the same command again and again 
@@ -77,30 +77,30 @@ Exit always in esc mode</b>
 
 <b>gg</b>  - top of the file
 
-<b>dd</b>  - delete the line
-<b>10dd</b>  - delete 10 times
-<b>dG</b>  - delete from current line to bottom line 
-<b>u</b>  - undo 
+<b>dd</b>  - delete the line<br>
+<b>10dd</b>  - delete 10 times<br>
+<b>dG</b>  - delete from current line to bottom line <br>
+<b>u</b>  - undo <br>
 <b>ctrl R</b>  - redo
 
-<b>yy</b>  - can be used to copy a line
-<b>p</b>  - paste below a particular line
+<b>yy</b>  - can be used to copy a line<br>
+<b>p</b>  - paste below a particular line<br>
 <b>Capital P</b>  - paste above a particular line
 
-<b>ctrl Cap V</b>  - puts you into visual mode
+<b>ctrl Cap V</b>  - puts you into visual mode<br>
 you can see your selection and do all the operations to that selection
 
-<b>copy paste - </b> 
-yy + p (for a line)
-select + yy + p (in visual mode)
+<b>copy paste - </b> <br>
+yy + p (for a line)<br>
+select + yy + p (in visual mode)<br>
 combination - y10j - copy 10 lines below and then use p.
 
-<b>cut paste - </b> 
-dd + P (for a line)
-select + dd + P (in visual mode)
+<b>cut paste - </b> <br>
+dd + P (for a line)<br>
+select + dd + P (in visual mode)<br>
 combination - d10j - delete 10 lines below and then use P.
 
-<b>o</b>  - adds a \n down and puts you into insert mode.
+<b>o</b>  - adds a \n down and puts you into insert mode.<br>
 <b>O</b>  - adds a \n above and puts into insert mode.
 
 <b>zz</b>  - centers your file in your vim window.
