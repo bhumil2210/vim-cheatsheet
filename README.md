@@ -6,18 +6,18 @@ https://vim.rtorr.com/
 Exit always in esc mode</b>
 <b>:q</b> - quit<br>
 <b>:wq</b> - save and quit<br>
-<b>:q!</b> - don't save and quit<br>
+<b>:q!</b> - don't save and quit
 
 <b>:w</b> - to save the file as we go
 
-<b>l</b>  - right
-<b>h</b>  - left
-<b>k</b>  - up
-<b>j</b>  = down
+<b>l</b>  - right<br>
+<b>h</b>  - left<br>
+<b>k</b>  - up<br>
+<b>j</b>  = down<br>
 
-<b>you can put numbers before every command</b> 
-<b>10k</b>  - move up 10 lines
-<b>10l</b>  - move right 10 characters
+<b>you can put numbers before every command</b><br>
+<b>10k</b>  - move up 10 lines<br>
+<b>10l</b>  - move right 10 characters<br>
 
 <b>A number adds a multiplier</b> 
 
