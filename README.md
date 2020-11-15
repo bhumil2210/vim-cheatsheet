@@ -2,109 +2,108 @@
 
 https://vim.rtorr.com/
 
-You can always use esc to reset your ongoing command
-Exit always in esc mode
-:q - quit
-:wq - save and quit
-:q! - don't save and quit
+<b>You can always use esc to reset your ongoing command
+Exit always in esc mode</b>
+<b>:q</b> - quit
+<b>:wq</b> - save and quit
+<b>:q!</b> - don't save and quit
 
-:w - to save the file as we go
+<b>:w</b> - to save the file as we go
 
-l - right
-h - left
-k - up
-j = down
+<b>l</b>  - right
+<b>h</b>  - left
+<b>k</b>  - up
+<b>j</b>  = down
 
-you can put numbers before every command
-10k - move up 10 lines
-10l - move right 10 characters
+<b>you can put numbers before every command</b> 
+<b>10k</b>  - move up 10 lines
+<b>10l</b>  - move right 10 characters
 
-A number adds a multiplier
+<b>A number adds a multiplier</b> 
 
-} - move down in blocks
-{ - move up in blocks
+<b>}</b>  - move down in blocks
+<b>{</b>  - move up in blocks
 
-w - move across words in right dir
-b - move across words in left dir
-W (Cap) / B (Cap)- moves fast than w/b, ignores punctuations
-0 - move to the beginning of the line
-^ / 0w - move to the beginning of first word
+<b>w</b>  - move across words in right dir
+<b>b</b>  - move across words in left dir
+<b>W (Cap) / B (Cap)</b> - moves fast than w/b, ignores punctuations
+<b>0</b>  - move to the beginning of the line
+<b> ^ / 0w </b>  - move to the beginning of first word
 
-a - 1 step right + insert mode
+<b>a</b>  - 1 step right + insert mode
 
-A - to the end of the line + insert mode
-I - to the beg of line + insert mode
+<b>A</b>  - to the end of the line + insert mode
+<b>I</b>  - to the beg of line + insert mode
 
-f(char) - find that character in line and cursor is on that char
-t(char) - find + cursor is 1 left to that char
+<b>f(char)</b>  - find that character in line and cursor is on that char
+<b>t(char)</b>  - find + cursor is 1 left to that char
 
-% called motion- can be used to move between opening and closing blocks , like from { to } directly
+<b>%</b>  called motion- can be used to move between opening and closing blocks , like from { to } directly
 
-d% - can be used to delete the whole block, covered by %, that is between a particular opening and closing of (,{,[
+<b>d%</b>  - can be used to delete the whole block, covered by %, that is between a particular opening and closing of (,{,[
 
-d[--] - d can be used for delete with any type of command.
+<b>d[--]</b>  - d can be used for delete with any type of command.
 
-cw - change word - deletes the word and puts cursor to that position for replacement and puts you into insert mode.
+<b>cw</b>  - change word - deletes the word and puts cursor to that position for replacement and puts you into insert mode.
 
-dw - delete word - deletes the word
+<b>dw</b>  - delete word - deletes the word
 
-ct(char) - we can change from cursor to particular char
+<b>ct(char)</b>  - we can change from cursor to particular char
 
-D (Cap) - deletes whole line to the right of cursor.
-C (Cap) - D(Cap) + insert mode
+<b>D (Cap)</b>  - deletes whole line to the right of cursor.
+<b>C (Cap)</b>  - D(Cap) + insert mode
 
-* - used as ctrl f - to search instances of a word in a file.
+<b>*</b>  - used as ctrl f - to search instances of a word in a file.
 
-/ (word) - ctrl f - to search in a file
-n - to move to next instance in down dir
-N - to move to next instance in up dir
+<b>/ (word)</b>  - ctrl f - to search in a file
+<b>n</b>  - to move to next instance in down dir
+<b>N</b>  - to move to next instance in up dir
 
-* and /  - both works
+<b>* and /</b>   - both works
 
-t(char); / ; - to find a instance across a line , 
+<b>t(char); / ;</b>  - to find a instance across a line , 
 
-x - deletes a char
-10x - 10 letters to the right
+<b>x</b>  - deletes a char
+<b>10x</b>  - 10 letters to the right
 
-r(char) - replace the char
+<b>r(char)</b>  - replace the char
 
-~ - changes the case of a letter
-10~ - will change case of 10 char to the right
+<b>~</b>  - changes the case of a letter
+<b>10~</b>  - will change case of 10 char to the right
 
-. (period operator) - does the last command performed, can be used to repeat the same command again and again 
+<b>.</b>  (period operator) - does the last command performed, can be used to repeat the same command again and again 
 
-select + > - for indenting chunk of code
+<b>select + ></b>  - for indenting chunk of code
 
-gg - top of the file
+<b>gg</b>  - top of the file
 
+<b>dd</b>  - delete the line
+<b>10dd</b>  - delete 10 times
+<b>dG</b>  - delete from current line to bottom line 
+<b>u</b>  - undo 
+<b>ctrl R</b>  - redo
 
-dd - delete the line
-10dd - delete 10 times
-dG - delete from current line to bottom line 
-u - undo 
-ctrl R - redo
+<b>yy</b>  - can be used to copy a line
+<b>p</b>  - paste below a particular line
+<b>Capital P</b>  - paste above a particular line
 
-yy - can be used to copy a line
-p - paste below a particular line
-Capital P - paste above a particular line
-
-ctrl Cap V - puts you into visual mode
+<b>ctrl Cap V</b>  - puts you into visual mode
 you can see your selection and do all the operations to that selection
 
-copy paste - 
+<b>copy paste - </b> 
 yy + p (for a line)
 select + yy + p (in visual mode)
 combination - y10j - copy 10 lines below and then use p.
 
-cut paste - 
+<b>cut paste - </b> 
 dd + P (for a line)
 select + dd + P (in visual mode)
 combination - d10j - delete 10 lines below and then use P.
 
-o - adds a \n down and puts you into insert mode.
-O - adds a \n above and puts into insert mode.
+<b>o</b>  - adds a \n down and puts you into insert mode.
+<b>O</b>  - adds a \n above and puts into insert mode.
 
-zz - centers your file in your vim window.
+<b>zz</b>  - centers your file in your vim window.
 
 
 Macros:
